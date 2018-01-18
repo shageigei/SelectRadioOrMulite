@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CD0B6842005EEAC002BD41D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0B6832005EEAC002BD41D /* AppDelegate.m */; };
+		3CD0B6872005EEAC002BD41D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0B6862005EEAC002BD41D /* ViewController.m */; };
+		3CD0B68A2005EEAC002BD41D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD0B6882005EEAC002BD41D /* Main.storyboard */; };
+		3CD0B68C2005EEAC002BD41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD0B68B2005EEAC002BD41D /* Assets.xcassets */; };
+		3CD0B68F2005EEAC002BD41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD0B68D2005EEAC002BD41D /* LaunchScreen.storyboard */; };
+		3CD0B6922005EEAC002BD41D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0B6912005EEAC002BD41D /* main.m */; };
+		3CD0B69A2005EEBE002BD41D /* UIView+DBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0B6992005EEBE002BD41D /* UIView+DBExtension.m */; };
+		89CE796F98E555BB3BEE4D06 /* libPods-SelectRadioOrMult.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47995D7CA3A233DFC06DA256 /* libPods-SelectRadioOrMult.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CD0B67F2005EEAC002BD41D /* SelectRadioOrMult.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectRadioOrMult.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD0B6822005EEAC002BD41D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CD0B6832005EEAC002BD41D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CD0B6852005EEAC002BD41D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CD0B6862005EEAC002BD41D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CD0B6892005EEAC002BD41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CD0B68B2005EEAC002BD41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CD0B68E2005EEAC002BD41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CD0B6902005EEAC002BD41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD0B6912005EEAC002BD41D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CD0B6982005EEBE002BD41D /* UIView+DBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DBExtension.h"; sourceTree = "<group>"; };
+		3CD0B6992005EEBE002BD41D /* UIView+DBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DBExtension.m"; sourceTree = "<group>"; };
+		47995D7CA3A233DFC06DA256 /* libPods-SelectRadioOrMult.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelectRadioOrMult.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		578E101E6DA474F54621C9F4 /* Pods-SelectRadioOrMult.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectRadioOrMult.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelectRadioOrMult/Pods-SelectRadioOrMult.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A505779FC4DB405836F38E /* Pods-SelectRadioOrMult.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectRadioOrMult.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelectRadioOrMult/Pods-SelectRadioOrMult.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CD0B67C2005EEAC002BD41D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CE796F98E555BB3BEE4D06 /* libPods-SelectRadioOrMult.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0735EDF6A0F890830D9628C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47995D7CA3A233DFC06DA256 /* libPods-SelectRadioOrMult.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CD0B6762005EEAC002BD41D = {
+			isa = PBXGroup;
+			children = (
+				3CD0B6812005EEAC002BD41D /* SelectRadioOrMult */,
+				3CD0B6802005EEAC002BD41D /* Products */,
+				977006FEDFF63E78D42519C4 /* Pods */,
+				0735EDF6A0F890830D9628C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CD0B6802005EEAC002BD41D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CD0B67F2005EEAC002BD41D /* SelectRadioOrMult.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CD0B6812005EEAC002BD41D /* SelectRadioOrMult */ = {
+			isa = PBXGroup;
+			children = (
+				3CD0B6822005EEAC002BD41D /* AppDelegate.h */,
+				3CD0B6832005EEAC002BD41D /* AppDelegate.m */,
+				3CD0B6852005EEAC002BD41D /* ViewController.h */,
+				3CD0B6862005EEAC002BD41D /* ViewController.m */,
+				3CD0B6982005EEBE002BD41D /* UIView+DBExtension.h */,
+				3CD0B6992005EEBE002BD41D /* UIView+DBExtension.m */,
+				3CD0B6882005EEAC002BD41D /* Main.storyboard */,
+				3CD0B68B2005EEAC002BD41D /* Assets.xcassets */,
+				3CD0B68D2005EEAC002BD41D /* LaunchScreen.storyboard */,
+				3CD0B6902005EEAC002BD41D /* Info.plist */,
+				3CD0B6912005EEAC002BD41D /* main.m */,
+			);
+			path = SelectRadioOrMult;
+			sourceTree = "<group>";
+		};
+		977006FEDFF63E78D42519C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				578E101E6DA474F54621C9F4 /* Pods-SelectRadioOrMult.debug.xcconfig */,
+				E5A505779FC4DB405836F38E /* Pods-SelectRadioOrMult.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CD0B67E2005EEAC002BD41D /* SelectRadioOrMult */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD0B6952005EEAC002BD41D /* Build configuration list for PBXNativeTarget "SelectRadioOrMult" */;
+			buildPhases = (
+				65F206217CEDB8223DFBB14D /* [CP] Check Pods Manifest.lock */,
+				3CD0B67B2005EEAC002BD41D /* Sources */,
+				3CD0B67C2005EEAC002BD41D /* Frameworks */,
+				3CD0B67D2005EEAC002BD41D /* Resources */,
+				D0343E0B8950C591C8C81F74 /* [CP] Embed Pods Frameworks */,
+				9CCF513C9DA9ABD51033E3C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectRadioOrMult;
+			productName = SelectRadioOrMult;
+			productReference = 3CD0B67F2005EEAC002BD41D /* SelectRadioOrMult.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CD0B6772005EEAC002BD41D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = lang;
+				TargetAttributes = {
+					3CD0B67E2005EEAC002BD41D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3CD0B67A2005EEAC002BD41D /* Build configuration list for PBXProject "SelectRadioOrMult" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CD0B6762005EEAC002BD41D;
+			productRefGroup = 3CD0B6802005EEAC002BD41D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CD0B67E2005EEAC002BD41D /* SelectRadioOrMult */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CD0B67D2005EEAC002BD41D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD0B68F2005EEAC002BD41D /* LaunchScreen.storyboard in Resources */,
+				3CD0B68C2005EEAC002BD41D /* Assets.xcassets in Resources */,
+				3CD0B68A2005EEAC002BD41D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65F206217CEDB8223DFBB14D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CCF513C9DA9ABD51033E3C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelectRadioOrMult/Pods-SelectRadioOrMult-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0343E0B8950C591C8C81F74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelectRadioOrMult/Pods-SelectRadioOrMult-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CD0B67B2005EEAC002BD41D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD0B6872005EEAC002BD41D /* ViewController.m in Sources */,
+				3CD0B6922005EEAC002BD41D /* main.m in Sources */,
+				3CD0B69A2005EEBE002BD41D /* UIView+DBExtension.m in Sources */,
+				3CD0B6842005EEAC002BD41D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CD0B6882005EEAC002BD41D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD0B6892005EEAC002BD41D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CD0B68D2005EEAC002BD41D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD0B68E2005EEAC002BD41D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CD0B6932005EEAC002BD41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CD0B6942005EEAC002BD41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CD0B6962005EEAC002BD41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578E101E6DA474F54621C9F4 /* Pods-SelectRadioOrMult.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5W2G53T8B7;
+				INFOPLIST_FILE = SelectRadioOrMult/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnovit.CloudMasBate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "12910bbe-188d-43d2-abe2-6febd278506e";
+				PROVISIONING_PROFILE_SPECIFIER = CloudMasBate;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CD0B6972005EEAC002BD41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A505779FC4DB405836F38E /* Pods-SelectRadioOrMult.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5W2G53T8B7;
+				INFOPLIST_FILE = SelectRadioOrMult/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnovit.CloudMasBate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "17aaeb97-30e5-400c-8778-f2f3cf592349";
+				PROVISIONING_PROFILE_SPECIFIER = CloudMasBate;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CD0B67A2005EEAC002BD41D /* Build configuration list for PBXProject "SelectRadioOrMult" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD0B6932005EEAC002BD41D /* Debug */,
+				3CD0B6942005EEAC002BD41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD0B6952005EEAC002BD41D /* Build configuration list for PBXNativeTarget "SelectRadioOrMult" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD0B6962005EEAC002BD41D /* Debug */,
+				3CD0B6972005EEAC002BD41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CD0B6772005EEAC002BD41D /* Project object */;
+}
